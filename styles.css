@@ -1,0 +1,89 @@
+* {
+	/* border: 1px dashed red; */
+	min-height: 10px;
+
+	font-family: "Handlee", cursive;
+	font-style: normal;
+}
+
+html {
+	padding: 50px;
+	background-color: rgb(0, 0, 0);
+}
+
+/* body {
+	background: black;
+	background-color: rgb(32, 32, 32);
+	padding: 100px;
+	padding-left: 50px;
+} */
+
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	padding: 10px;
+	margin: auto;
+}
+
+.postcard-header {
+	/* display: block; */
+	display: flex;
+	align-items: center;
+}
+
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+	/* padding: 10px; */
+}
+
+.postcard-header h1 {
+	/* width: 350px; */
+	width: 100%;
+	/* height: ; */
+	margin: 0px;
+	/* padding-top: 10px; */
+	/* padding-bottom: 10px; */
+	/* padding-left: 10px; */
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left p:first-child {
+	margin-top: 0px;
+}
+
+.body-left,
+.body-right {
+	padding: 10px;
+	width: 200px;
+}
+
+input {
+	border: none;
+	border-bottom: grey solid 1px;
+	width: 180px;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+button {
+	background-color: rgb(192, 192, 192);
+	padding: 5px;
+	border: none;
+	border-bottom: grey solid 1px;
+}
+
+button:hover {
+	background-color: rgb(163, 163, 163);
+}
+
+button:active {
+	background-color: rgb(0, 162, 255);
+	border: rgb(0, 0, 0) 1px solid;
+}
